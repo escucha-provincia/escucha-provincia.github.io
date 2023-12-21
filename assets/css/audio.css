@@ -1,0 +1,178 @@
+.audio__panel {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  width: 500px;
+/*   background-color: blue; */
+}
+
+.audio__information {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.audio__image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
+
+.fa-solid{
+    font-size: 35px;
+}
+
+.audio__description {
+  font-weight: 700;
+}
+
+.audio__bar {
+    height: 7px;
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    transition: 1s;
+  }
+
+.red {
+  background-color: red;
+}
+
+.audio__play-pause {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.audio__setting {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+
+#playButton,
+#stopButton,
+#volume-low,
+#volume-off,
+#volume-xmark,
+#volume-high,
+#iconShare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: white;
+}   
+
+#stopButton,
+#audioPlayer,
+#volume-low,
+#volume-off,
+#volume-xmark {
+  display: none;
+}
+
+.audio__volume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 25px;
+}
+
+.audio__share {
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.shareSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  gap: 10px;
+  position: relative;
+  left: -185px;
+  transition: 1s;
+}
+
+.btn-share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-radius: 100%;
+    font-size: 10px;
+    outline: none;
+}
+
+.btn-share:hover{
+    background-color: red;
+}
+
+.left {
+  left: 5px;
+}
+
+.volumen-range {
+  -webkit-appearance: none;
+  width: 120px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: black;
+  outline: none;
+  cursor: pointer;
+}
+
+.volumen-range::-webkit-slider-thumb {
+  appearance: none;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.volumen-range::-moz-range-thumb {
+  appearance: none;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.volumen-range::-ms-thumb {
+  appearance: none;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  cursor: pointer;
+}
